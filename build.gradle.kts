@@ -95,15 +95,15 @@ dependencies {
     // Since Minecraft 1.20.5 Paper ships a Mojang-mapped runtime, and since 26.1 Spigot
     // reobfuscation is gone entirely. Every NMS module is therefore Mojang-mapped
     // (MOJANG_PRODUCTION) and consumed as a plain project dependency (no "reobf" variant).
-    api(project(":NMS:V1_21_4"))
-    api(project(":NMS:V1_21_5"))
-    api(project(":NMS:V1_21_6"))
-    api(project(":NMS:V1_21_7"))
-    api(project(":NMS:V1_21_8"))
-    api(project(":NMS:V1_21_9"))
-    api(project(":NMS:V1_21_10"))
-    api(project(":NMS:V1_21_11"))
-    api(project(":NMS:V26_2"))
+    // api(project(":NMS:V1_21_4"))
+    // api(project(":NMS:V1_21_5"))
+    // api(project(":NMS:V1_21_6"))
+    // api(project(":NMS:V1_21_7"))
+    // api(project(":NMS:V1_21_8"))
+    // api(project(":NMS:V1_21_9"))
+    // api(project(":NMS:V1_21_10"))
+    // api(project(":NMS:V1_21_11"))
+    // api(project(":NMS:V26_2"))
     api(project(":NMS:V26_3"))
 
     rootProject.subprojects.filter { it.path.startsWith(":Hooks:") }.forEach { subproject ->
