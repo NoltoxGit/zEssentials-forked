@@ -58,7 +58,7 @@ allprojects {
 
     tasks.shadowJar {
         archiveBaseName.set(rootProject.name)
-        archiveAppendix.set(if (project.path == ":") "" else project.name)
+        archiveAppendix.set(if (project.path == ":") "heavencube" else project.name)
         archiveClassifier.set("")
     }
 
