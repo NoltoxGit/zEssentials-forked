@@ -1,0 +1,16 @@
+{
+  "base": {
+    "name": "develop",
+    "sha": "e8539ed229a736129f6fa9b817af65d3a245144b"
+  },
+  "branches": [
+    {
+      "name": "fix/legacy-colors",
+      "sha": "570eea31b15964c5f166343c651f787d15c5c37a"
+    },
+    {
+      "name": "refactor/zmenu-api-only",
+      "sha": "70f756a0ee0729084291ab2545ce68158c5ea8a6"
+    }
+  ]
+}
